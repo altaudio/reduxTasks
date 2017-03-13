@@ -19,5 +19,5 @@ class TodolistContainer extends Component {
 }
 
 
-//makes this.props return state (state.todos)
+// makes this.props return state (state.todos)
 export default connect((state) => state.todos)(TodolistContainer)
