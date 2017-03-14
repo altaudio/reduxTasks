@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { likeCat, onRandomCat } from 'redux/actions/cats'
@@ -15,7 +16,6 @@ class RandomCatContainer extends Component {
     )
   }
 }
-
 
 // makes this.props return state (state.todos)
 export default connect((state) => state.cats)(RandomCatContainer)
